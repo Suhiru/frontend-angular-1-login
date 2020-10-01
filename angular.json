@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ngregistration"
+    }
+  },
+  "defaultProject": "ngregistration",
+  "cli": {
+    "analytics": "f1189e6a-79e5-42c0-94ff-f6c3fc88b255"
+  }
 }
