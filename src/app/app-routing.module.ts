@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { LoginSuccessComponent } from './login-success/login-success.component';
 import { LoginComponent } from './login/login.component';
 
 
 const routes: Routes = [
-  {path:'' ,component:LoginComponent}
+  {path:'' ,component:LoginComponent},
+  {path:'loginsucess' ,component : LoginSuccessComponent}
 ];
 
 @NgModule({
