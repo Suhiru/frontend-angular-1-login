@@ -36,4 +36,10 @@ export class LoginComponent implements OnInit {
     );
   }
 
+  navigateToRegistration(){
+
+    console.log("registration");
+    this.route.navigate(['/registration']);
+  }
+
 }

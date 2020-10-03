@@ -8,13 +8,15 @@ import { RegistrationComponent } from './registration/registration.component';
 import { FormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import { LoginSuccessComponent } from './login-success/login-success.component';
+import { RegistrationSuccessComponent } from './registration-success/registration-success.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     RegistrationComponent,
-    LoginSuccessComponent
+    LoginSuccessComponent,
+    RegistrationSuccessComponent
   ],
   imports: [
     BrowserModule,
